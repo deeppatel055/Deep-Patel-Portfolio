@@ -15,12 +15,19 @@
     rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <title>Deep Patel</title>
-  <script type="module" crossorigin src="/Deep-Patel-Portfolio/assets/index-BY78J8FU.js"></script>
+  <script type="module" crossorigin src="/Deep-Patel-Portfolio/assets/index--hMSGo90.js"></script>
   <link rel="stylesheet" crossorigin href="/Deep-Patel-Portfolio/assets/index-DsjJR5BY.css">
 </head>
 
 <body>
   <div id="root"></div>
+  <script>
+  // Redirect all 404s to index.html
+  if (location.pathname !== '/' && !location.pathname.includes('.')) {
+    location.replace('/');
+  }
+</script>
+
 </body>
 
 </html>
