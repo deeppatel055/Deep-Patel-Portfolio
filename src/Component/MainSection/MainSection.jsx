@@ -123,7 +123,7 @@ const Mainsection = () => {
             <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-[#2d3748]">
               <img
                 src={photo}
-                alt="Professional developer photo"
+                alt="Deep Patel - Web Developer Profile Picture"
                 className="w-full h-full object-cover"
               />
             </div>
