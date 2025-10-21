@@ -1,5 +1,4 @@
-
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import photo from '../../assets/photo.jpg';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
@@ -94,7 +93,7 @@ const Mainsection = () => {
             className="text-4xl sm:text-4xl md:text-5xl font-bold text-[#2d3748] leading-tight"
             style={{ fontFamily: 'Roboto' }}
           >
-            'm a <br /> Web Developer
+            I'm a <br /> Web Developer
           </h1>
           <p
             ref={paragraphRef}
